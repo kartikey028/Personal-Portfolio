@@ -243,5 +243,65 @@ body{
     height: 100%;
     border-radius: 8px 0 0 8px;
     transition: width 0.5s ease;
+
+}
+.connect-box {
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  border: 2px solid #fca311;
+  border-radius: 12px;
+  padding: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  background-color: #fca311;
+  text-align: center;
+  color: white;
+  width: fit-content;
+  margin-top: 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+
+
+}
+.connect-box:hover{
+    background-color: #e08900;
+    transform: translateY(-2px);
     
+}
+
+.connect-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #333;
+  font-weight: 600;
+}
+
+.connect-box .social-icons {
+  display: flex;
+  margin-top: 0;
+  gap: 15px;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 1.4s ease;
+
+}
+
+.connect-box:hover .social-icons {
+  max-height: 100px;
+  opacity: 1;
+  margin-top: 10px;
+
+}
+
+.connect-box .social-icons a {
+  font-size: 20px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.connect-box .social-icons a:hover {
+  color: #fca311;
 }

@@ -204,3 +204,44 @@ body{
 .bar span.css { width: 85%; }
 .bar span.javascript { width: 75%; }
 .bar span.git { width: 70%; }
+
+.skills{
+    text-align: left;
+    margin-top: 25px;
+
+}
+.skill{
+    margin-bottom: 15px;
+
+}
+.skill-name{
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+.skill-name i{
+    color: #fca311;
+    font-size: 20px;
+    width: 24px;
+    text-align: center;
+
+}
+.skill-bar{
+    background: #ddd;
+    border-radius: 8px;
+    height: 12px;
+    width: 100%;
+    overflow: hidden;
+
+}
+.skill-level{
+    background: #fca311;
+    height: 100%;
+    border-radius: 8px 0 0 8px;
+    transition: width 0.5s ease;
+    
+}

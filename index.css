@@ -267,7 +267,7 @@ body{
 .connect-box:hover{
     background-color: #e08900;
     transform: translateY(-2px);
-    
+
 }
 
 .connect-header {
@@ -304,4 +304,14 @@ body{
 
 .connect-box .social-icons a:hover {
   color: #fca311;
+}
+/*.hero{
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: none !important;
+
+}
+*/
+html{
+    scroll-behavior: smooth;
 }
